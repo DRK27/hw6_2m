@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_photo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Entrance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="@string/entrance"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="@string/Welcome"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Entrance" />
+
+    <TextView
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/registration1"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Welcome" />
+
+    <TextView
+        android:id="@+id/registration2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registransion2"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/registration" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="@color/white"
+        android:hint="@string/email"
+        android:paddingStart="15dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/registration"
+        app:layout_constraintStart_toStartOf="@id/registration"
+        app:layout_constraintTop_toBottomOf="@id/registration" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="@color/white"
+        android:hint="@string/pasworld"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/email"
+        app:layout_constraintStart_toStartOf="@id/email"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <Button
+        android:id="@+id/come"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#615E5E"
+        android:text="@string/come"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@id/password"
+        app:layout_constraintStart_toStartOf="@id/password"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+
+    <TextView
+        android:id="@+id/yourPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="70dp"
+        android:text="@string/ForgotyourPassword"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/come" />
+
+    <TextView
+        android:id="@+id/clickPassworld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/clicPAssworld"
+        android:textColor="@color/orange"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/come" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">hw6_2m</string>
+    <string name="entrance">Вход</string>
+    <string name="Welcome">Добро пожаловать!</string>
+    <string name="registration">Выполните вход или зарегистрируйтесь</string>
+    <string name="registration1">Выполните вход </string>
+    <string name="registransion2">или зарегистрируйтесь.</string>
+    <string name="pasworld">Введите пароль</string>
+    <string name="email">Введите вашу почту</string>
+    <string name="come">Войти</string>
+    <string name="ForgotyourPassword">Забыли пароль?</string>
+    <string name="clicPAssworld">Нажми сюда</string>
+</resources>
